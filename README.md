@@ -18,3 +18,51 @@ Linear Regression: remuneration vs loyalty_points
 Linear Regression: age vs loyalty_points
 - R-Squared: 0.1% of the total variability of y (how many loyalty_points the customer has collected), is explained by the variability of X (the customer age).
 - No correlation between customer age and loyalty_points. This model will not be useful in predicting the value of loyalty_points using age.
+
+# Assignment Activity 2: Making Predictions with Clustering
+
+We identified 5 cluster groups of customers within the data relating to spending_score and remuneration which can help inform the marketing campaigns at Turtle Games:
+
+Group 1: low spending_score, low remuneration
+- This group is low risk (low value?), they spend relative to their monthly salary.
+- This group represents 13.55% of the sample data.
+- Average age is 43.5 years old (above average of the dataset which is 39.5). 
+- The lowest number of loyalty points collected averaging only 275.
+
+Targeting this group with a marketing campaign may have relatively low success in terms of new sales becuase this group would be risk adverse to spending beyond their means. 
+
+
+Group 2: high spending_score, low remuneration
+- This group is high risk and spend beyond their relative means.
+- This group represents 13.45% of the total in this sample data.
+- Average age is 31.6 years old which is the youngest grouping.
+- Loyalty points collected averages 971 (3rd highest).
+
+This group may purchase impulsively, even though the low yearly income suggests purchases will be less affordable. The lower average age indicates that perhaps some of the customers in this group are living at the parent's home. Despite the low remuneration, this group should be targeted for marketing purposes.The high spending_score coupled with the low loyalty_points suggests that this group may be interested in promotions or bargain buys (many purchases at low prices).
+
+
+Group 3: medium spending_score, medium remuneration
+- This group does not take on any extra risk and tends to spend as anticipated according to the yearly income.
+- This group is the largest cluster and represents 38.70% of the total in this sample data.
+- Average age is 42 years old which is the above the dataset average.
+- Loyalty points collected are quite high at 1,420 (2nd highest).
+
+This largest group is the 'bread-and-butter' of the business and should never be ignored. Average age suggests that they may be long-term loyal customers.
+
+
+Group 4: low spending_score, high remuneration
+- This group has lower interest in the products on sale, which can easily be purchased based on the yearly salary.
+- This group represents 16.50% of the total in this sample data.
+- Average age is 40.66 years old which is the above the dataset average.
+- Loyalty points collected are not impressive at 911 (2rd lowest).
+
+Despite being able to afford to purchase, customers in this group show little interest in the products. It may be less cost-effective to target this group with the marketing budget.
+    
+
+Group 5: high spending_score, high remuneration
+- This group has a great deal of interest in the products on sale, and they can easily afford to purchase more based on the yearly salary.
+- This group represents 17.80% of the total in this sample data (2nd largest group).
+- Average age is 35.60 years old which is the below the dataset average (2nd youngest group).
+- Loyalty points collected are the most impressive at 3,988 (top).
+    
+This group has the most disposable income and doesn't mind spending it, possibly purchasing some of the most expensive products. The marketing department should always include this group in any new campaign.
