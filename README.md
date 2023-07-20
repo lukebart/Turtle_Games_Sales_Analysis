@@ -19,6 +19,9 @@ Linear Regression: age vs loyalty_points
 - R-Squared: 0.1% of the total variability of y (how many loyalty_points the customer has collected), is explained by the variability of X (the customer age).
 - No correlation between customer age and loyalty_points. This model will not be useful in predicting the value of loyalty_points using age.
 
+Multiple Linear Regression: age, spending_score & remuneration vs loyalty_points
+- R-Squared: 84% of the total variability of y (how many loyalty_points the customer has collected), is explained by the variability of X (the customer age, spending_score and remuneration).
+
 # Assignment Activity 2: Making Predictions with Clustering
 
 We identified 5 cluster groups of customers within the data relating to spending_score and remuneration which can help inform the marketing campaigns at Turtle Games:
@@ -66,3 +69,7 @@ Group 5: high spending_score, high remuneration
 - Loyalty points collected are the most impressive at 3,988 (top).
     
 This group has the most disposable income and doesn't mind spending it, possibly purchasing some of the most expensive products. The marketing department should always include this group in any new campaign.
+
+# Assignment Activity 3: Analysing Customer Sentiments with Reviews
+
+Several NLP sentiment analysis models (VADER, TextBlob, BERT) were tested to better understand customer sentiment towards the products purchased, which will help Turtle Games to identify marketing opportunities that can increase sales and reduce churn rates. Vader and TextBlob required pre-processing the text to create a ‘bag of words’, while BERT models do not require this step, there are complications with the maximum length of the text. The BERT models provided more accurate sentiment scores, compared to VADER and TextBlob models. The NLP Town BERT Model was chosen because it had a familiar scoring system using star ratings from 1 (negative) to 5 (positive), this would make it easy for employees to understand and therefore take appropriate action. Accurate real-time sentiment analysis of customer reviews can provide valuable information to the marketing department, helping them to (1) identify products that were not well received by the customers, (2) respond to customers negative experience in order to avoid churn, (3) quickly identify top-rated products which can be included in promotions to new customers. These are just 3 examples.
