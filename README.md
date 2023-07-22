@@ -73,3 +73,13 @@ This group has the most disposable income and doesn't mind spending it, possibly
 # Assignment Activity 3: Analysing Customer Sentiments with Reviews
 
 Several NLP sentiment analysis models (VADER, TextBlob, BERT) were tested to better understand customer sentiment towards the products purchased, which will help Turtle Games to identify marketing opportunities that can increase sales and reduce churn rates. Vader and TextBlob required pre-processing the text to create a ‘bag of words’, while BERT models do not require this step, there are complications with the maximum length of the text. The BERT models provided more accurate sentiment scores, compared to VADER and TextBlob models. The NLP Town BERT Model was chosen because it had a familiar scoring system using star ratings from 1 (negative) to 5 (positive), this would make it easy for employees to understand and therefore take appropriate action. Accurate real-time sentiment analysis of customer reviews can provide valuable information to the marketing department, helping them to (1) identify products that were not well received by the customers, (2) respond to customers negative experience in order to avoid churn, (3) quickly identify top-rated products which can be included in promotions to new customers. These are just 3 examples.
+
+# Assignment Activity 4: Visualising Data to Gather Insights
+
+- There are strong correlations between the Global sales and the sales in North America and Europe.
+- The data for each region shows as positively skewed and shows outliers in the higher range of sales.
+- Sales in North America is generally higher in all categories than sales in Europe.
+- Top genres of video games are: shooter, platform, action, role-playing, sports.
+- Top platforms of video games are: Wii, X360, PS3, DS.
+- Top publishers of video games are: Nintendo, Activision, EA, Take-Two.
+- Several product codes stand out in terms of sales above 35m.
