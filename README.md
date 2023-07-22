@@ -83,3 +83,21 @@ Several NLP sentiment analysis models (VADER, TextBlob, BERT) were tested to bet
 - Top platforms of video games are: Wii, X360, PS3, DS.
 - Top publishers of video games are: Nintendo, Activision, EA, Take-Two.
 - Several product codes stand out in terms of sales above 35m.
+
+# Assignment Activity 5: Cleaning Manipulating & Visualising the Data
+
+The data for Europe, North America and Global Sales does not form a normal distribution. There is positive skewedness (meaning most values are in the lower range), and kurtosis is leptokuric (meaning the bell shape is steep and pointed with a long tail, in this case the long tail is mainly on the right).
+
+In order to normalise the data, serveral techniques were tested:
+1. Removal of Outliers
+2. Log
+3. Square Root
+4. Cube Root
+
+Removal of outliers would not be deemed advisable because the excluded data would be valuable.
+
+The log transformation was effective at reducing the value of kurtosis closer to 3, and worked best with the Global Sales data.
+
+While for the Europe and North America Sales data, the cube root transformation was most effective. In fact, for Europe Sales, the cube root almost achieved a normal distribution.
+
+It may be advisable to apply transformation to the data before building a multi-linear regression predictive model, but the results should be carefully monitored for undesirable effects. 
