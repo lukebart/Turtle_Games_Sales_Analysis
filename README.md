@@ -100,4 +100,27 @@ The log transformation was effective at reducing the value of kurtosis closer to
 
 While for the Europe and North America Sales data, the cube root transformation was most effective. In fact, for Europe Sales, the cube root almost achieved a normal distribution.
 
+# Assignment Activity 6: Making Recommendations to the Business
+
+Multiple Linear Regression Model
+
+Explanation
+The model predicted Global sales based on the sales in North America and 
+Europe.
+
+Limitations
+The dataset was too small to generate meaningful results. Ideally, any scenario involving predicting or forecasting sales would require time-based analysis. In this case, the data was limited to a snapshot in time, if the data was monthly then a time-series model could be built to any show trends and/or seasonality, and forecast future sales.
+
+How can Turtle Games improve overall sales performance?
+
+1. The Marketing Department must act on the target groups identified:
+- Send an Net-Promoter Score survey to customers in group 1 (high spending score + high remuneration). These customers should be kept satisfied through special marketing promotions.
+- Use a survey to understand more about group 2 (low spending score + high remuneration).
+
+2. Use the loyalty program to collect more customer data which can improve the predictive model. The primary goal is to find key metrics that explain the accumulation of loyalty points e.g. house ownership, number of children, postcode.
+
+3. Implement sentiment analysis on any customer contact such as product reviews, chat and emails. Focus on (i) keeping customers satisfied (e.g. fast-track complaints), (ii) products trending negative or positive, (iii) and identifying and rewarding happy customers who actively promote the brand.
+
+
+
 It may be advisable to apply transformation to the data before building a multi-linear regression predictive model, but the results should be carefully monitored for undesirable effects. 
