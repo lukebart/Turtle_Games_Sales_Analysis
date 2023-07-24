@@ -145,3 +145,12 @@ How can Turtle Games improve overall sales performance?
 2. Use the loyalty program to collect more customer data which can improve the predictive model. The primary goal is to find key metrics that explain the accumulation of loyalty points e.g. house ownership, number of children, postcode.
 
 3. Implement sentiment analysis on any customer contact such as product reviews, chat and emails. Focus on (i) keeping customers satisfied (e.g. fast-track complaints), (ii) products trending negative or positive, (iii) and identifying and rewarding happy customers who actively promote the brand.
+
+Further research should be focused on:
+- Develop a logistic regression model using the target groups to identify more variables that may affect spending e.g., education, gender.
+
+===========================================================================
+
+THE END ;-)
+  
+
